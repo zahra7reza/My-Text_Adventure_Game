@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: cursive;
+  color: #b2577a;
+}
+
+#bg {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.container {
+  width: 800px;
+  max-width: flex;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0.2rem 0.2rem 1.5rem 1.5rem teal;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.btn {
+  background-color: #9bd7d5;
+  border-radius: 5px;
+  padding: 7px 10px;
+  color: black;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0.2rem 0.2rem 1.5rem 1.5rem teal;
+}
+
+#audioPlayer {
+  position: absolute;
+  z-index: -10;
+}
